@@ -1,7 +1,3 @@
 html, body, form, .row {
-  height: 100%;
-}
-
-.row {
   margin: 0 !important;
 }

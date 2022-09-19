@@ -1,1 +1,15 @@
-<p>menu works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      <ul class="list-group">
+        <li class="list-group-item" routerLinkActive="active" [routerLink]="['/', 'barra']">Barras</li>
+        <li class="list-group-item" routerLinkActive="active" [routerLink]="['/', 'barra-doble']">Barra doble</li>
+        <li class="list-group-item" routerLinkActive="active" [routerLink]="['/', 'dona']">Dona</li>
+        <li class="list-group-item" routerLinkActive="active" [routerLink]="['/', 'donaHttp']">Dona HTTP</li>
+      </ul>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
